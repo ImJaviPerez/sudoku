@@ -46,7 +46,7 @@ for {bf in 0..2}
 {
 	for {i in 1..3}
 	{
-		# Mostar los columnas de una fila separadas por bloques
+		# Mostrar los columnas de una fila separadas por bloques
 		for {bc in 0..2}
 		{
 			printf{j in 1..3} "%1d ", sum{k in N} k * x[3*bf+i,3*bc+j,k];
@@ -69,7 +69,7 @@ for {i in N}
 # DATOS USADOS EN ESTE PROBLEMA ---------------
 data;
 # DATA: INFORMACION INICIAL DEL SUDOKU -----
-# using the . character instead of a value in the matrix makes that particular value to be defaulted.
+# Using the . character instead of a value in the matrix makes that particular value to be defaulted.
 param DATA :	1 2 3   4 5 6   7 8 9 := 
              1	8 . .   6 . .   9 . 5
              2	. . .   . . .   . . .
