@@ -1,2 +1,2 @@
 # sudoku
-Solve any sudoku using integer linear programming (operational research).
+Solve a square sudoku using integer linear programming (operational research).
